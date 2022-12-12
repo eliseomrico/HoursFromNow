@@ -64,4 +64,4 @@ This will then begin the uninstallation process.
 > Please Note: If you receive the following error when you attempt to run the `./uninstall_hfn.command` , you will need to add execution permission to the `uninstall_hfn.command` script by running this command: 
 > `chmod +x uninstall_hfn.command`
 
-![Screenshot of error message](./images/install-error.png)
+![Screenshot of error message](./images/uninstall-error.png)
