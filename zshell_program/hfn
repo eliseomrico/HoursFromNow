@@ -1,0 +1,41 @@
+#!/bin/zsh
+
+function get_number_of_hours(){
+    read userprovidedhours
+    return userprovidedhours
+}
+function clear_screen(){
+    clear
+}
+function print_output(){
+    echo "\n"$1" "$3" from now it will be:"
+    date -v $2 "+%m/%d/%y @ %r %Z"
+    echo
+}
+
+
+while getopts 'h:m:' OPTION; do
+    case "$OPTION" in 
+    h) # OPTION FOR HOURS
+
+        # Format user input in preperation for use with date command
+        numberofhours="+"$OPTARG"H"
+
+        # Output Response
+        print_output $OPTARG $numberofhours "hours"
+        ;;
+
+    m) # OPTION FOR MINUTES
+
+        # Format user input in preperation for use with date command
+        numberofminutes="+"$OPTARG"M"
+
+        #Output Response
+        print_output $OPTARG $numberofminutes "minutes"
+        ;;
+    ?)
+        echo "Invalid Option: Please Try Again\n"
+        exit 1
+        ;;
+    esac
+done
