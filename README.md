@@ -1,7 +1,6 @@
 # HoursFromNow (HFN)
 
-HoursFromNow (HFN) is a command-line tool enables a user to check what the date and time will be in the future, given a value supplied the user. 
-
+HoursFromNow (HFN) is a MacOS Z Shell command-line tool that enables a user to check what the date and time will be in the future, given a value supplied by the user. The user will call the hfn command with either the hour (-h) or minute (-m) flag and supply a value (either hours or minutes) to see what the date and time will be when the supplied input is addded to the current time.
 
 ![hfn command demonstrated on terminal using the hour command flag](./images/main.png)
 
