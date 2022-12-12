@@ -14,7 +14,6 @@ HoursFromNow (HFN) is a command-line tool enables a user to check what the date 
 
 
 ## How to use
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur malesuada pulvinar erat non convallis. Fusce tempor sit amet nibh vel ultricies. 
 
 ### Hours Flag (-h)
 The **hours** command is used to calculate and display what the date and time will be given a user provided number of hours from the current (system) time. In order to use it, the `-h` flag is appended to the hfn command, and the user provides the number of hours they want to calculate after the `-h` flag. Usage syntax and an example are shown below:
