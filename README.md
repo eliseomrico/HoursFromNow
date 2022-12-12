@@ -7,10 +7,10 @@ HoursFromNow (HFN) is a command-line tool enables a user to check what the date 
 
 
 ## Contents
-[How to use](#How-to-use)
-[Installation](#Installation)
-[Uninstallation](#Uninstallation)
-[Future Improvements](#How-it_works)
++ [How to use](#How-to-use)
++ [Installation](#Installation)
++ [Uninstallation](#Uninstallation)
++ [Future Improvements](#How-it_works)
 
 
 ## How to use
